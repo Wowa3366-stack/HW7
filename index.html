@@ -5,15 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <style>
-  .youtube {
-    color: red;
-   }
-   .validator {
-    color: red;
-   }
-   .lorem_ipsum {
-    font-size: 24px;
-   }
+a[href^="https://"] {
+  color: red;
+}
+ul + p {
+  font-size: 24px;
+}
   </style>
 </head>
 <body>
@@ -32,16 +29,16 @@
         </ul>
       </li>
       <li>
-        <a class="youtube" href="https://www.youtube.com/">link4</a>
+        <a href="https://www.youtube.com/">link4</a>
       </li>
       <li>
-        <a class="validator" href="https://validator.w3.org/">link5</a>
+        <a href="https://validator.w3.org/">link5</a>
       </li>
       <li>
         <a href="#">link6</a>
       </li>
     </ul>
-    <p class="lorem_ipsum">
+    <p>
       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, accusamus.
     </p>
     <h1>Title</h1>
